@@ -1,6 +1,9 @@
 .header {
     background-color: orange;
     display: flex;
+    list-style-type: none;
 }
+
+
 
 
