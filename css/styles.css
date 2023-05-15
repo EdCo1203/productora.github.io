@@ -60,3 +60,47 @@ p{
     display: block;
     block-size: 10%;
 }
+
+body,header,main,footer,a,nav,h1,h2,p{
+    border: solid 1px black;
+}
+
+header{
+    background-color: blue;
+    height: 5rem;
+    display: block;
+}
+
+h1{
+    height: .8rem;
+    display: flex;
+    justify-content: left;
+    width: 45%;
+    padding: 0.5em
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+a{
+    display: inline-block;
+    height: 1rem;
+    width: 5rem;
+}
+
+
+nav{
+    display: flex;
+    height: 0.6rem;
+}
+
+main{
+    height: 30rem;
+}
+
+footer{
+    height: 5rem;
+}
+
