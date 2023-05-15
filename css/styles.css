@@ -1,0 +1,62 @@
+li, header, body, footer, p, h1, h2{
+    border: solid 1px black
+}
+
+h1,h2{
+    display: block;
+    text-align: center;
+    size: 5rem 5rem;
+    margin: 10px;
+    padding: 10px
+
+}
+
+li{
+
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+body{
+    position: relative;
+    margin: 0%;
+    padding-bottom: 3em;
+}
+
+header{
+    height: rem;
+    padding-bottom: 0%;
+    position:relative;
+    margin: 10px;
+    padding: 10px
+}
+
+main{
+    height: 30rem;
+    margin: 10px;
+    padding: 10px
+}
+
+footer {
+    width: 95%;
+    position: absolute;
+    bottom: 0%;
+    height: 5rem;
+    margin: 10px;
+    padding: 10px
+}
+
+p{
+    margin: 10px;
+    padding: 10px
+}
+
+#presentacion{
+    line-height: 120%;
+    display: block;
+    block-size: 10%;
+}
